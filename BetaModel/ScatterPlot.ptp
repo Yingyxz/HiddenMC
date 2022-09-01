@@ -1,0 +1,15 @@
+# PCTeX Project File, Version 1.1
+	name: ScatterPlot
+	texformat: AMSPLAIN
+	typesetmode: DVI
+	spellwordlist: american
+ScatterPlot.tex
+	wndpos: 1 -1 -1 -8 -31 0 0 655 419
+	zorder: 1
+	edit: 226
+ScatterPlot.log
+scatter.txt
+ScatterPlot.DVI
+	wndpos: 1 -1 -1 -8 -31 19 66 674 485
+	zorder: 0
+	view: 0 -2

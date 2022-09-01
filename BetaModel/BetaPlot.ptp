@@ -1,0 +1,16 @@
+# PCTeX Project File, Version 1.1
+	name: BetaPlot
+	texformat: AMSPLAIN
+	typesetmode: DVI
+	spellwordlist: american
+BetaPlot.tex
+	wndpos: 1 -1 -1 -8 -31 0 0 655 419
+	zorder: 1
+	edit: 0
+BetaPlot.log
+Beta.txt
+Beta_130.txt
+BetaPlot.DVI
+	wndpos: 3 -1 -1 -8 -31 78 78 737 501
+	zorder: 0
+	view: 0 -2

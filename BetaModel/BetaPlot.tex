@@ -1,0 +1,24 @@
+\input pictex\magnification=\magstep1\nopagenumbers
+\centerline {
+\beginpicture
+\setcoordinatesystem units <0.08 truein, 2.5 truein>
+\setplotarea x from 0 to 60, y from  1.0 to 1.8
+\axis bottom
+/
+\axis left
+ticks numbered from 1.0 to 1.8 by .1
+/
+\plot 12 1.02 12 .98 /
+\plot 24 1.02 24 .98 /
+\plot 36 1.02 36 .98 /
+\plot 48 1.02 48 .98 /
+\put {2012} at 6 .95
+\put {2013} at 18 .95
+\put {2014} at 30 .95
+\put {2015} at 42 .95
+\put {2016} at 54 .95
+\setplotsymbol({$\cdot$})
+\plot "Beta.txt"
+\setplotsymbol({$\scriptscriptstyle\cdot$})
+\plot "Beta_130.txt"
+\endpicture}\vfill\end

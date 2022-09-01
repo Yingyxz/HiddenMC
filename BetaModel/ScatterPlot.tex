@@ -1,0 +1,17 @@
+\input pictex\magnification=\magstep1\nopagenumbers
+\centerline {
+\beginpicture
+\setcoordinatesystem units <3 truein, 3 truein>
+\setplotarea x from 1.0 to 1.8, y from  1.0 to 1.8
+\axis bottom
+label {Bayesian Methodology}
+ticks numbered from 1.0 to 1.8 by .2
+/
+\axis left
+label {\stack{Moving,Average}}
+ticks numbered from 1.0 to 1.8 by .2
+/
+\input scatter.txt
+\plot 1 1  1.8 1.8 /
+\endpicture}
+\vfill\end
